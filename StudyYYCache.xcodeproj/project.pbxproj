@@ -13,6 +13,17 @@
 		619EF6811E51AF41006AFEB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619EF67F1E51AF41006AFEB7 /* LaunchScreen.storyboard */; };
 		619EF68C1E51AF41006AFEB7 /* StudyYYCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 619EF68B1E51AF41006AFEB7 /* StudyYYCacheTests.m */; };
 		619EF6971E51AF41006AFEB7 /* StudyYYCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 619EF6961E51AF41006AFEB7 /* StudyYYCacheUITests.m */; };
+		619EF6AD1E51AF55006AFEB7 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 619EF6A61E51AF55006AFEB7 /* YYCache.m */; };
+		619EF6AE1E51AF55006AFEB7 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 619EF6A81E51AF55006AFEB7 /* YYDiskCache.m */; };
+		619EF6AF1E51AF55006AFEB7 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 619EF6AA1E51AF55006AFEB7 /* YYKVStorage.m */; };
+		619EF6B01E51AF55006AFEB7 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 619EF6AC1E51AF55006AFEB7 /* YYMemoryCache.m */; };
+		619EF6B71E51AFB9006AFEB7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619EF6B51E51AFB9006AFEB7 /* RootViewController.m */; };
+		619EF6B81E51AFB9006AFEB7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619EF6B61E51AFB9006AFEB7 /* RootViewController.xib */; };
+		619EF6BB1E51AFEB006AFEB7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 619EF6BA1E51AFEB006AFEB7 /* libsqlite3.0.tbd */; };
+		619EF6C11E51B140006AFEB7 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 619EF6C01E51B140006AFEB7 /* UserModel.m */; };
+		619EF6C41E51B151006AFEB7 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 619EF6C31E51B151006AFEB7 /* PersonModel.m */; };
+		619EF6CB1E51B27F006AFEB7 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 619EF6C71E51B27F006AFEB7 /* NSObject+YYModel.m */; };
+		619EF6CC1E51B27F006AFEB7 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 619EF6C91E51B27F006AFEB7 /* YYClassInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +57,27 @@
 		619EF6921E51AF41006AFEB7 /* StudyYYCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyYYCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		619EF6961E51AF41006AFEB7 /* StudyYYCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyYYCacheUITests.m; sourceTree = "<group>"; };
 		619EF6981E51AF41006AFEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619EF6A51E51AF55006AFEB7 /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
+		619EF6A61E51AF55006AFEB7 /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
+		619EF6A71E51AF55006AFEB7 /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
+		619EF6A81E51AF55006AFEB7 /* YYDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDiskCache.m; sourceTree = "<group>"; };
+		619EF6A91E51AF55006AFEB7 /* YYKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKVStorage.h; sourceTree = "<group>"; };
+		619EF6AA1E51AF55006AFEB7 /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
+		619EF6AB1E51AF55006AFEB7 /* YYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
+		619EF6AC1E51AF55006AFEB7 /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
+		619EF6B41E51AFB9006AFEB7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		619EF6B51E51AFB9006AFEB7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		619EF6B61E51AFB9006AFEB7 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		619EF6BA1E51AFEB006AFEB7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		619EF6BF1E51B140006AFEB7 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		619EF6C01E51B140006AFEB7 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		619EF6C21E51B151006AFEB7 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		619EF6C31E51B151006AFEB7 /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		619EF6C61E51B27F006AFEB7 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		619EF6C71E51B27F006AFEB7 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		619EF6C81E51B27F006AFEB7 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		619EF6C91E51B27F006AFEB7 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		619EF6CA1E51B27F006AFEB7 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619EF6BB1E51AFEB006AFEB7 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +113,7 @@
 				619EF68A1E51AF41006AFEB7 /* StudyYYCacheTests */,
 				619EF6951E51AF41006AFEB7 /* StudyYYCacheUITests */,
 				619EF6751E51AF41006AFEB7 /* Products */,
+				619EF6B91E51AFEB006AFEB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +130,17 @@
 		619EF6761E51AF41006AFEB7 /* StudyYYCache */ = {
 			isa = PBXGroup;
 			children = (
+				619EF6A41E51AF55006AFEB7 /* YYCache */,
+				619EF6C51E51B27F006AFEB7 /* YYModel */,
 				619EF67A1E51AF41006AFEB7 /* AppDelegate.h */,
 				619EF67B1E51AF41006AFEB7 /* AppDelegate.m */,
+				619EF6B41E51AFB9006AFEB7 /* RootViewController.h */,
+				619EF6B51E51AFB9006AFEB7 /* RootViewController.m */,
+				619EF6B61E51AFB9006AFEB7 /* RootViewController.xib */,
+				619EF6C21E51B151006AFEB7 /* PersonModel.h */,
+				619EF6C31E51B151006AFEB7 /* PersonModel.m */,
+				619EF6BF1E51B140006AFEB7 /* UserModel.h */,
+				619EF6C01E51B140006AFEB7 /* UserModel.m */,
 				619EF67D1E51AF41006AFEB7 /* Assets.xcassets */,
 				619EF67F1E51AF41006AFEB7 /* LaunchScreen.storyboard */,
 				619EF6821E51AF41006AFEB7 /* Info.plist */,
@@ -130,6 +173,41 @@
 				619EF6981E51AF41006AFEB7 /* Info.plist */,
 			);
 			path = StudyYYCacheUITests;
+			sourceTree = "<group>";
+		};
+		619EF6A41E51AF55006AFEB7 /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				619EF6A51E51AF55006AFEB7 /* YYCache.h */,
+				619EF6A61E51AF55006AFEB7 /* YYCache.m */,
+				619EF6A71E51AF55006AFEB7 /* YYDiskCache.h */,
+				619EF6A81E51AF55006AFEB7 /* YYDiskCache.m */,
+				619EF6A91E51AF55006AFEB7 /* YYKVStorage.h */,
+				619EF6AA1E51AF55006AFEB7 /* YYKVStorage.m */,
+				619EF6AB1E51AF55006AFEB7 /* YYMemoryCache.h */,
+				619EF6AC1E51AF55006AFEB7 /* YYMemoryCache.m */,
+			);
+			path = YYCache;
+			sourceTree = "<group>";
+		};
+		619EF6B91E51AFEB006AFEB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				619EF6BA1E51AFEB006AFEB7 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		619EF6C51E51B27F006AFEB7 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				619EF6C61E51B27F006AFEB7 /* NSObject+YYModel.h */,
+				619EF6C71E51B27F006AFEB7 /* NSObject+YYModel.m */,
+				619EF6C81E51B27F006AFEB7 /* YYClassInfo.h */,
+				619EF6C91E51B27F006AFEB7 /* YYClassInfo.m */,
+				619EF6CA1E51B27F006AFEB7 /* YYModel.h */,
+			);
+			path = YYModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +321,7 @@
 			files = (
 				619EF67E1E51AF41006AFEB7 /* Assets.xcassets in Resources */,
 				619EF6811E51AF41006AFEB7 /* LaunchScreen.storyboard in Resources */,
+				619EF6B81E51AFB9006AFEB7 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +347,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				619EF67C1E51AF41006AFEB7 /* AppDelegate.m in Sources */,
+				619EF6CC1E51B27F006AFEB7 /* YYClassInfo.m in Sources */,
+				619EF6CB1E51B27F006AFEB7 /* NSObject+YYModel.m in Sources */,
+				619EF6B71E51AFB9006AFEB7 /* RootViewController.m in Sources */,
+				619EF6B01E51AF55006AFEB7 /* YYMemoryCache.m in Sources */,
+				619EF6AE1E51AF55006AFEB7 /* YYDiskCache.m in Sources */,
 				619EF6791E51AF41006AFEB7 /* main.m in Sources */,
+				619EF6AD1E51AF55006AFEB7 /* YYCache.m in Sources */,
+				619EF6C41E51B151006AFEB7 /* PersonModel.m in Sources */,
+				619EF6AF1E51AF55006AFEB7 /* YYKVStorage.m in Sources */,
+				619EF6C11E51B140006AFEB7 /* UserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +499,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X42645MK9G;
 				INFOPLIST_FILE = StudyYYCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.StudyYYCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X42645MK9G;
 				INFOPLIST_FILE = StudyYYCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.robooot.StudyYYCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +588,7 @@
 				619EF69D1E51AF41006AFEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		619EF69E1E51AF41006AFEB7 /* Build configuration list for PBXNativeTarget "StudyYYCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +597,7 @@
 				619EF6A01E51AF41006AFEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		619EF6A11E51AF41006AFEB7 /* Build configuration list for PBXNativeTarget "StudyYYCacheUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +606,7 @@
 				619EF6A31E51AF41006AFEB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
